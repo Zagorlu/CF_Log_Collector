@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config>
+    <!-- LOGIN INFO -->
+    <username>tahaemredemirkol@gmail.com</username>
+    <password>MyPassw0rd.123</password>
+    <!-- LOGIN URL -->
+    <loginUrl>https://blabla.com/login</loginUrl>
+    <!-- PASSCODE URL -->
+    <passcodeUrl>https://blabla.com/passcode</passcodeUrl>
+    <!-- PROD LIST -->
+    <!-- 'orgs' Atrtibute must be seperated with ';'(semi-colon) -->
+    <prodList>
+        <prod name="PRODUCTION-FIRST" url="https://blabla.dev0/" orgs="org1;org2;org3;org4" />
+        <prod name="PRODUCTION-SECOND" url="https://blabla.dev1/" orgs="ORGS NOT DEFINED" />
+    </prodList>
+</config>
